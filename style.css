@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Square+Peg&display=swap');
+
+
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url("bg.jpg");
+    background-size:cover;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+/*header start*/
+header {
+    height: 100px;
+    
+}
+    header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-bottom: 2px solid rgb(255,255,255,0.06);
+    
+    }
+    header nav .logo a {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        column-gap: 30px;
+    }
+    nav ul a {
+        color: white;
+        text-decoration: none;
+        transition: color .25s ease;
+    }
+    nav ul a:hover {
+        color:#0ba2c0 ;
+       
+    }
+    nav .menu{
+        display: flex;
+        align-items: center;
+        column-gap: 30px;
+    }
+    nav .menu .menu-button {
+        color: #0ba2c0;
+        text-decoration: none;
+        background-color: rgb(255,255,255,0.08);
+        padding: 12px 24px;
+        border-radius: 50px;
+        transition: all .25s ease;
+    }
+    nav .menu .menu-button:hover {
+        color:white;
+       background-color: #0ba2c0;
+       
+    }
+
+/*header end*/
+/* section start */
+.content {
+    color: white;
+    height: calc(100vh-100px);/* header 100px vh=ekran yüksekliğinin %1'i */
+    padding-top: 200px;
+}
+.content h1 {
+    font-size: 60px;
+    text-align: center;
+}
+.content p {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 32px;
+}
+.content .links {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap:16px ;
+}
+.content .links a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 15px;
+
+}
+.content .links a:hover {
+    background-color: #0ba2c0;
+    transition: all .50s ease;
+    color: white;
+
+}
+
+
+/* section end */
+/* responsive start */
+/* responsive end */
